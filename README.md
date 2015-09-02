@@ -27,3 +27,14 @@ git config --global core.excludesfile ~/.gitignore
 .cache-tests
 .project
 ```
+
+## Setting username/email
+
+Globally
+
+```
+git config --global user.name "My Name"
+git config --global user.email "myname@email.com"
+```
+
+Drop the ```--global``` for a per-repo configuration.
