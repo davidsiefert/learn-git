@@ -38,3 +38,9 @@ git config --global user.email "myname@email.com"
 ```
 
 Drop the ```--global``` for a per-repo configuration.
+
+## How to stage pieces of a diff (instead of whole thing)
+
+```
+git add -p <filepath>
+```
